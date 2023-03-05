@@ -13,7 +13,7 @@ public:
         return cnt+1; */
         
         int cnt=0;
-        while(n>0){
+        while(n!=0){
             if(n&1){
                 cnt++;
             }
